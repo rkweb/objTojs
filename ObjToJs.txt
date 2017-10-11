@@ -1,0 +1,33 @@
+第一步：输入本地路径
+C:\Users\bjzhangzhilei>cd
+
+C:\Users\bjzhangzhilei\Desktop\che
+
+第二步：输入磁盘目录命令dir，可以列出当前文件夹中所包含的内容
+C:\Users\bjzhangzhilei\Desktop\che>dir
+
+第三部：可以使用命令转换js
+python convert_obj_three.py -i che.obj -o che.js
+python convert_obj_three.py -i lanbo.obj -o lanbo.js
+
+第四部：可以使用命令转换二进制js
+python convert_obj_three.py -i bus.obj -o bus_bin.js -t binary
+
+
+js：
+car.js文件是1.23MB = 1259.52KB
+
+lanbo.js文件是12.5MB = 12800KB
+
+二进制js：
+car_bin.js和car_bin.bin文件共676KB
+
+lanbo_bin.bin和lanbo_bin.js文件分别是5.79MB（5928.96KB） + 4KB = 5932.96KB
+
+1259.52/676 = 1.86
+
+12800/5932.96  = 2.15
+
+
+
+
